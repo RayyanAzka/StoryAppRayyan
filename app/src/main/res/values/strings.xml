@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LoginWithAnimation</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Mau cerita pengalaman belajarmu? Di sini aja!</string>
+    <string name="title_welcome_page">Selamat datang di Story App!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Sudah siap untuk cerita pengalamanmu?</string>
+    <string name="name">Nama</string>
+    <string name="copyright">© 2021 Dicoding</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Logout</string>
+    <string name="menu_3">Maps</string>
+    <string name="camera_failed">"Gagal Memunculkan Kamera"</string>
+    <string name="close_camera">Menutup Camera</string>
+    <string name="take_a_photo">Ambil Foto</string>
+    <string name="flip_to_front_camera">Ubah menjadi Kamera Depan</string>
+    <string name="pick_gallery">Pilih foto dari Galeri</string>
+    <string name="add_description">Tuliskan deskripsi</string>
+    <string name="have_account">Sudah punya akun?</string>
+    <string name="not_have_account">Belum punya akun?</string>
+    <string name="get_photo_failed">Gagal mengambil gambar</string>
+    <string name="map">Map</string>
+    <string name="data_empty">Data Tidak Boleh Kosong!</string>
+    <string name="dll">Lainnya</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
