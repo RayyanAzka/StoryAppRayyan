@@ -27,7 +27,15 @@ class StoryPagingSource(private val apiService: ApiService, private val userPref
             Log.d("List Story", response.toString())
             LoadResult.Page(
                 data = response.listStory.map {
-                    ListStoryItem(it.id, it.name, it.photoUrl, it.createdAt, it.description, (it.lat) as String, (it.lon) as String)
+                    ListStoryItem(
+                        id = it.id,
+                        name = it.name,
+                        photoUrl = it.photoUrl,
+                        createdAt = it.createdAt,
+                        description = it.description,
+                        lat = it.lat,
+                        lon = it.lon
+                    )
                 },
                 prevKey = if (position == INITIAL_PAGE_INDEX) null else position -1,
                 nextKey = if (response.listStory.isEmpty()) null else position +1

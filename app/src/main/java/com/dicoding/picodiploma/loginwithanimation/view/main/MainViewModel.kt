@@ -24,7 +24,7 @@ import retrofit2.Response
 class MainViewModel(storyRepository: StoryRepository, private val authRepository: AuthRepository) : ViewModel() {
     private val refresh = MutableLiveData<Unit>()
 
-    val story: LiveData<PagingData<ListStoryItem>> = storyRepository.getAllStory().cachedIn(viewModelScope)
+    val story: LiveData<PagingData<ListStoryItem>> by lazy { storyRepository.getAllStory().cachedIn(viewModelScope) }
 
     fun isLogin() = authRepository.isLogin()
 
